@@ -1,0 +1,28 @@
+h1 {
+    color: blue;
+    cursor: pointer;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+h1:hover{
+    color: red;
+    letter-spacing: 2px;
+}
+img {
+    width: 500px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 30px red;
+    margin: 3px;
+    transition: 0.3s;
+    opacity: 100%;
+}
+img:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+    box-shadow: 1px 1px 33px red;
+}
+* {
+    background-color: skyblue;
+}
