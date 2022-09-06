@@ -1,0 +1,30 @@
+body {
+    background-color: skyblue;
+}
+h1,h3 {
+    text-align: center;
+    color: white;
+}
+table,th,td {
+    border:1px solid black;
+    text-align: center;
+    padding: 5px;
+    
+}
+table {
+    width: 100%;
+}
+tr:nth-child(odd) {
+    background-color:   white;
+    color: black;
+}
+tr:nth-child(even) {
+    background-color:  black;
+    color: white;
+}
+th:hover,td:hover {
+    font-size: 25px;
+    color: skyblue;
+    padding: 7px;
+    margin: 7px;
+}
