@@ -1,0 +1,28 @@
+img {
+    width: 100%;
+}
+body {
+    width: auto;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+table th, table td {
+    text-align: left;
+}
+div {
+    text-align: right;
+}
+fieldset {
+    background-color: skyblue;
+}
+button {
+    width: 100%;
+    border: none;
+    background-color:skyblue;
+    font-size: 18px;
+    color: black;
+    border-radius: 20px;
+}
