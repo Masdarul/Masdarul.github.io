@@ -1,0 +1,28 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+table th, table td {
+    text-align: left;
+}
+div {
+    text-align: left;
+}
+fieldset {
+    background-color: skyblue;
+}
+button {
+    width: 100%;
+    border: none;
+    background-color:skyblue;
+    font-size: 18px;
+    color: black;
+    border-radius: 20px;
+}
+.rizqi-1 {
+    text-align: center;
+}

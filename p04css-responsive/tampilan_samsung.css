@@ -1,0 +1,11 @@
+@media only screen and (max-width: 320px) {
+    body {
+        background-color: hotpink;
+        font-size: 9px;
+    }
+    .rizqi-1 {
+        font-size: 12px;
+        color: white;
+    }
+    .rizqi-4 { text-align: right;}
+   }
