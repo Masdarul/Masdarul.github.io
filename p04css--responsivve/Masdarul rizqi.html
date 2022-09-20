@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ID">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum PMB</title>
+    <link rel="stylesheet" href="masdarul rizqi.css">
+    <link rel="stylesheet" href="Masarul rizqi(Device).css">
+    <script src="masdarul rizqi.js"></script>
+</head>
+<body>
+    <div class="kelas_1">
+        <header>
+            <img src="kopsurat.png">
+        </header>
+        <h1>Forum PMB</h1>
+        <div class="petunjuk">
+            <label>Pentujuk Pengisian</label>
+        <ol>
+            <li>Isilah data isian dengan cermat, teliti dan benar</li>
+            <li>Isilah dengan huruf balok</li>
+            <li>Salah penulisan pada pengisian formulir ini akan berakibat kesalahan pada penulisan data Saudara pada ijazah</li>
+        </ol>  
+        </div>
+    </div>
+    <form>
+        <div class="kelas_2">
+            <h2>Forum Pendaftaran</h2>
+            <div>
+                <label>No.Pendaftaran</label>
+                <input type="number" id="Nomor_pendaftaran" placeholder="Masukan nomor Pendaftaran" maxlength="12">
+            </div>
+            <div>
+                <label>Nama Lengkap</label>
+                <input type="text" id="Nama_lengkap" placeholder="Nama Lengkap Anda">
+            </div>
+            <div>
+                <label>Tanggal Ujain</label>
+                <input type="date" id="tgl_ujain"> 
+            </div>
+            <div>
+                <label>Jenis Kelamin </label>
+                <select> 
+                    <option value="L">Laki-Laki</option>
+                    <option value="P">Perempuan</option>
+                </select>
+            </div>
+            <div>
+                <label>Jenjang</label>
+                <select>
+                    <option value="D3">DIII / Diploma 3</option>
+                    <option value="S1">S1 / Sarjana 1</option>
+                </select>
+            </div>
+            <div>
+                <label>Program Studi</label>
+                <select>
+                    <option value="TI">Teknik Informatika (S1)</option>
+                    <option value="RPL">Rekayasa Perangkat Lunak (S1)</option>
+                    <option value="SI">Sistem Informasi (S1)</option>
+                    <option value="MI">Manajemen Informatika (D3)</option>
+                    <option value="KA">Komputerisasi Akuntansi (D3)</option>
+                </select>
+            </div>
+            <div>
+                <label>Jalur Pendidikan</label>
+                <select>
+                    <option value="KIP">Beasiswa</option>
+                    <option value="RP">Reguler Pagi</option>
+                    <option value="RS">Reguler Sore</option>
+                    <option value="KP">Pindahan</option>
+                </select>
+            </div>
+            <div>
+                <label>Ukuran Almamater</label>
+                <select>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                    <option value="XXXL">XXXL</option>
+                </select>
+            </div>
+            <div>
+                <label>Sistem Pembayaran</label>
+                <select>
+                    <option>SPP / Bulanan</option>
+                    <option>1 semester</option>
+                    <option>1 tahun / 2 semester</option>
+                </select>
+            </div>
+            <h2>Data Pribadi</h2>
+            <div>
+                <label>Tempat,Tanggal Lahir</label>
+                <input type="text" placeholder="Masukkan Tempat Lahir">
+                <input type="date">
+            </div>
+            <div>
+                <label>Alamat Lengkap</label>
+                <input type="text"  placeholder="Masukkan Alamat Lengkap">
+            </div>
+            <div>
+                <label>No.Telepon</label>
+                <input type="number" placeholder="Masukkan Nomor Telepon" maxlength="13">
+            </div>
+            <div>
+                <label>Nama Orang tua / Wali</label>
+                <input type="text" placeholder="Masukkan Nama Orang Tua / Wali">
+            </div>
+            <div>
+                <label>Pekerjaan Orang Tua</label>
+                <select>
+                    <option>PNS</option>
+                    <option>Wirausaha</option>
+                    <option>Swastra</option>
+                    <option>Lain-Lain</option>    
+                </select>
+            </div>
+            <h2>Pendidkan Terahkir</h2>
+            <div>
+                <label>Asal Pendidkan</label>
+                <input type="text" placeholder="Masukkan Asal Pendidikan">
+            </div>
+            <div>
+                <label>Jurusan</label>
+                <input type="text" placeholder="Masukkan Jurusan">
+            </div>
+            <div>
+                <label>No.Ijazah</label>
+                <input type="number" placeholder="Masukkan Nomor Ijazah" maxlength="20">
+            </div>
+            <div>
+                <label>Tanggal Kelulusan</label>
+                <input type="date">
+            </div>
+            <div>
+                <label>Upload Document Persyatan dan Tanda Tangan Digital</label>
+                <input type="file">
+            </div>
+        </div>
+        <br>
+        <div>
+            <button type="submit" onclick="sumbit()">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
