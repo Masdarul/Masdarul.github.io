@@ -1,0 +1,151 @@
+/* samsung galaxy */
+@media only  screen and (max-width: 360px), 
+       screen and (max-height: 800px) {
+        header img{
+            width: 100%;
+        }
+        h1 {
+            font-size: 18px;
+        }
+        h2 { 
+            font-size: 15px;
+        }
+        label {
+            font-size: 12px; 
+        }
+        select, input {
+            width: 100%;
+            font-size: 9px;
+        }
+        .petunjuk, ol li {
+            font-size: 10px;
+        }
+
+
+/* Huawei */       
+@media only  screen and (max-width: 360px), 
+screen and (max-height: 780px) {
+    header img{
+        width: 100%;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    h2 { 
+        font-size: 15px;
+    }
+    label {
+        font-size: 12px; 
+    }
+    select, input {
+        width: 94%;
+        font-size: 9px;
+    }
+    .petunjuk, ol li {
+        font-size: 10px;
+    }
+   .kelas_2 {
+        width: 94%;
+   }
+
+/* Google Pixel */
+@media only  screen and (max-width: 412px), 
+       screen and (max-height: 915px) {
+        header img{
+            width: 100%;
+        }
+        h1 {
+            font-size: 21px;
+        }
+        h2 { 
+            font-size: 18px;
+        }
+        label {
+            font-size: 13px; 
+        }
+        select, input {
+            width: 100%;
+            font-size: 9.7px;
+        }
+        .petunjuk, ol li {
+            font-size: 13px;
+       }
+
+/* Iphone 5 */       
+@media only  screen and (max-width: 320px), 
+screen and (max-height: 568px) {
+    header img{
+        width: 100%;
+    }
+    h1 {
+        font-size: 21px;
+    }
+    h2 { 
+        font-size: 18px;
+    }
+    label {
+        font-size: 13px; 
+    }
+    select, input {
+        width: 97%;
+        font-size: 8px;
+    }
+    .petunjuk, ol li {
+        font-size: 8px;
+    }
+   .kelas_2 {
+        width: 97%;
+   }
+
+/* Iphone X */       
+@media only  screen and (max-width: 375px), 
+screen and (max-height: 812px) {
+    header img{
+        width: 100%;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    h2 { 
+        font-size: 15px;
+    }
+    label {
+        font-size: 12px; 
+    }
+    select, input {
+        width: 97%;
+        font-size: 8px;
+    }
+    .petunjuk, ol li {
+        font-size: 8px;
+    }
+   .kelas_2 {
+        width: 97%;
+   }
+
+/* Ipad Mini */       
+@media only  screen and (max-width: 768px), 
+screen and (max-height: 1024px) {
+    header img{
+        width: 100%;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    h2 { 
+        font-size: 15px;
+    }
+    label {
+        font-size: 12px; 
+    }
+    select, input {
+        width: 97%;
+        font-size: 8px;
+    }
+    .petunjuk, ol li {
+        font-size: 8px;
+    }
+   .kelas_2 {
+        width: 97%;
+   }
+}
