@@ -5,7 +5,7 @@ screen and (max-height: 1366px) {
         width: 100%;
     }
     h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
     h2 { 
         font-size: 30px;
@@ -26,6 +26,12 @@ screen and (max-height: 1366px) {
    button {
     font-size: 35px;
    }
+   .jdl {
+    font-size: 12px;
+    }
+    .sy {
+        font-size: 13px;
+    }
 }
 /* Ipad Mini */       
 @media only  screen and (max-width: 768px), 
