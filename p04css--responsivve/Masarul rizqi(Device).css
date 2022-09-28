@@ -1,3 +1,32 @@
+/* iPad Pro */
+@media only  screen and (max-width: 1024px), 
+screen and (max-height: 1366px) {
+    header img{
+        width: 100%;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h2 { 
+        font-size: 30px;
+    }
+    label {
+        font-size: 21px; 
+    }
+    select, input {
+        width: 97%;
+        font-size: 20px;
+    }
+    ol li,.petunjuk {
+        font-size: 20px;
+    }
+   .kelas_2 {
+        width: 97%;
+   }
+   button {
+    font-size: 35px;
+   }
+}
 /* Ipad Mini */       
 @media only  screen and (max-width: 768px), 
 screen and (max-height: 1024px) {
@@ -28,6 +57,41 @@ screen and (max-height: 1024px) {
    }
 }
 
+/* Google Pixel */
+@media only  screen and (max-width: 412px), 
+       screen and (max-height: 915px) {
+        header img{
+            width: 100%;
+        }
+        h1 {
+            font-size: 21px;
+        }
+        h2 { 
+            font-size: 18px;
+        }
+        label {
+            font-size: 13px; 
+        }
+        select, input {
+            width: 98%;
+            font-size: 9.7px;
+        }
+        .petunjuk, ol li {
+            font-size: 8px;
+       }
+       .kelas_2 {
+        width: 98%;
+       }
+       .jdl {
+        font-size: 16px;
+        }
+        .sy {
+            font-size: 13px;
+        }
+        button {
+            font-size: 15px;
+        }
+    }
 /* Google Pixel */
 @media only  screen and (max-width: 412px), 
        screen and (max-height: 915px) {
