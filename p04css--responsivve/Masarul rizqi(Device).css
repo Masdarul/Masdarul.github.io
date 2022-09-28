@@ -1,5 +1,4 @@
 /* Destkop */ 
-/* 1024px -1200px */
 @media only  screen and (max-width: 1024px) {
     header img{
         width: 100%;
@@ -24,7 +23,8 @@
         width: 97%;
    }
    .terakhir {
-    font-size: 35px;
+    width: 100%;
+    font-size: 100px;
    }
    .jdl {
     font-size: 7px;
