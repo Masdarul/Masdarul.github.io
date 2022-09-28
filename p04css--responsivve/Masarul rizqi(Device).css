@@ -5,7 +5,7 @@ screen and (max-height: 1366px) {
         width: 100%;
     }
     h1 {
-        font-size: 30px;
+        font-size: 33px;
     }
     h2 { 
         font-size: 30px;
@@ -18,19 +18,19 @@ screen and (max-height: 1366px) {
         font-size: 20px;
     }
     ol li,.petunjuk {
-        font-size: 20px;
+        font-size: 12px;
     }
    .kelas_2 {
         width: 97%;
    }
-   button {
+   .terakhir {
     font-size: 35px;
    }
    .jdl {
-    font-size: 12px;
+    font-size: 7px;
     }
     .sy {
-        font-size: 13px;
+        font-size: 5px;
     }
 }
 /* Ipad Mini */       
