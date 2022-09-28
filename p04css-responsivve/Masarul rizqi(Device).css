@@ -1,12 +1,3 @@
-/* Desktop */
-@media only  screen and (max-width: 1024px) {
-    header img{
-        width: 100%;
-    }
-    h1 {
-        font-size: 1000px;
-    }
-}
 /* Ipad Mini */       
 @media only  screen and (max-width: 768px), 
     screen and (max-height: 1024px) {
