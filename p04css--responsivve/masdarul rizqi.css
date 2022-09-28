@@ -22,7 +22,7 @@ header{
 }
 h1 {
     text-align: center;
-    font-size: 250px;
+    font-size: 700px;
     color: rgb(200,230,230);
 }
 h1:hover,ol li:hover,.petujuk:hover{
@@ -40,22 +40,23 @@ ol li,.petunjuk {
     color: white;
 }
 h2 {
-    font-size: 25px;
+    font-size: 500px;
     text-align: center;    
 }
 label {
-   font-size: 15.5px;
+   font-size: 300px;
    font-weight: bold; 
 }
 select, input {
     width: 100%;
-    font-size: 15px;
+    font-size: 500px;
     background-color: white;
 }
 button {
     background-color: rgba(0,0,0,0.8);
     color: white;
 }
-button {
+.terakhir {
     width: 100%;
+    font-size: 1000px;
 }
