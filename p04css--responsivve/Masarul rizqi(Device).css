@@ -1,10 +1,10 @@
 /* Destkop */ 
-@media only  screen and (max-width: 1200px) {
+@media only  screen and (max-width: 1024px) {
     header img{
         width: 100%;
     }
     h1 {
-        font-size: 900px;
+        font-size: 33px;
     }
     h2 { 
         font-size: 30px;
