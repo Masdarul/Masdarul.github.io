@@ -1,3 +1,38 @@
+/* Destkop */ 
+/* 1024px -1200px */
+@media only  screen and (max-width: 1024px) {
+    header img{
+        width: 100%;
+    }
+    h1 {
+        font-size: 33px;
+    }
+    h2 { 
+        font-size: 30px;
+    }
+    label {
+        font-size: 21px; 
+    }
+    select, input {
+        width: 97%;
+        font-size: 20px;
+    }
+    ol li,.petunjuk {
+        font-size: 12px;
+    }
+   .kelas_2 {
+        width: 97%;
+   }
+   .terakhir {
+    font-size: 35px;
+   }
+   .jdl {
+    font-size: 7px;
+    }
+    .sy {
+        font-size: 5px;
+    }
+}
 /* iPad Pro */
 @media only  screen and (max-width: 1024px), 
 screen and (max-height: 1366px) {
@@ -5,10 +40,10 @@ screen and (max-height: 1366px) {
         width: 100%;
     }
     h1 {
-        font-size: 750px;
+        font-size: 33px;
     }
     h2 { 
-        font-size: 700px;
+        font-size: 30px;
     }
     label {
         font-size: 21px; 
