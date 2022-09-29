@@ -1,0 +1,22 @@
+body {
+    background-image: url(https://thecinemaholic.com/wp-content/uploads/2019/07/onepiece-1.jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat:no-repeat;
+}
+h2 {
+    text-align: center;
+    background-color: rgba(255,255,255,0.8);
+}
+table { 
+    width: 100%;
+}
+td,th {
+    text-align: center;
+    border: 2px double red;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+th {
+    font-family: 'Black Courier New', Courier, monospace;
+}
