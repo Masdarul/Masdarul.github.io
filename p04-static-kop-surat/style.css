@@ -2,6 +2,12 @@ body{
     font-family: Arial, sans-serif;
     background-color: floralwhite;
 }
+table { 
+    width: 100%;
+}
+td,th { 
+    border: 2px solid;
+}
 .halaman1{
     width: 100%;
     border: 1px solid #ccc;
