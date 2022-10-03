@@ -5,8 +5,9 @@ body{
 table { 
     width: 100%;
 }
-td,th { 
-    border: 2px solid;
+td,th,tr { 
+    border: 2px solid black;
+    text-align: center;
 }
 .halaman1{
     width: 100%;
