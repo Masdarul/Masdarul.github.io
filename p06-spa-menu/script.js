@@ -6,7 +6,7 @@ $(document).ready(function() {
         $(this).addClass('active');
         
         var href = $(this).attr('href');
-        $('#konten>div').hide();
+        $('#content>div').hide();
 
         if(currentSection == 0){
             $('#konten').slideToggle(200);
