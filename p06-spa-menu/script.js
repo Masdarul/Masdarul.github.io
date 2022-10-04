@@ -7,7 +7,7 @@ $(document).ready(function() {
         $(this).addClass('active');
         
         var href = $(this).attr('href');
-        $('#conten>div').hide();
+        $('#Content>div').hide();
         
         $(href).show();
               
