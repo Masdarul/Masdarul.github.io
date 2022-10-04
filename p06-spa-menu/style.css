@@ -22,3 +22,6 @@ li a:hover {
     display: block;
     border-radius: 5px;
 }
+img {
+    width: 10%;
+}
