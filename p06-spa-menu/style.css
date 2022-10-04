@@ -6,6 +6,8 @@ ul {
 }
 li {
     float: right;
+    padding: 2px;
+    margin: 2px;
 }
 li a {
     display: block;
